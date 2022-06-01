@@ -125,8 +125,6 @@ module.exports = {
       return res.status(400).json({ msg: `Webhook Error: ${err.message}` });
     }
 
-    // eslint-disable-next-line no-console
-    console.log(event.type);
     const session = event.data.object;
 
     if (event.type === 'invoice.payment_succeeded') {

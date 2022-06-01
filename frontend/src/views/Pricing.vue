@@ -18,7 +18,7 @@
                   <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                     <div class="card pricing-rates business-rate shadow bg-white border-0 rounded">
                       <div class="card-body">
-                        <h6 class="title fw-bold text-uppercase text-primary mb-4">Free</h6>
+                        <h6 class="title fw-bold text-uppercase text-primary mb-4">FREE</h6>
                         <div class="d-flex mb-4">
                           <span class="h6 mb-0 mt-2">₹</span>
                           <span class="price h1 mb-0">0</span>
@@ -63,7 +63,7 @@
                         <span class="text-center d-block shadow small h6">Best</span>
                       </div>
                       <div class="card-body">
-                        <h6 class="title fw-bold text-uppercase text-primary mb-4">Starter</h6>
+                        <h6 class="title fw-bold text-uppercase text-primary mb-4">STANDARD</h6>
                         <div class="d-flex mb-4">
                           <span class="h6 mb-0 mt-2">₹</span>
                           <span class="price h1 mb-0">3500</span>
@@ -105,7 +105,7 @@
                   <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                     <div class="card pricing-rates business-rate shadow bg-white border-0 rounded">
                       <div class="card-body">
-                        <h6 class="title fw-bold text-uppercase text-primary mb-4">Ultimate</h6>
+                        <h6 class="title fw-bold text-uppercase text-primary mb-4">PREMIUM</h6>
                         <div class="d-flex mb-4">
                           <span class="h6 mb-0 mt-2">₹</span>
                           <span class="price h1 mb-0">7500</span>
