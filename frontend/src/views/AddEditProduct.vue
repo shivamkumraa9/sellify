@@ -126,7 +126,7 @@
                       v-model="formData.allowNewSales" class="form-check-input"
                       type="checkbox" value="" id="noti1"
                     >
-                    <label class="form-check-label" for="noti1">Don't allow new sales</label>
+                    <label class="form-check-label" for="noti1">Allow new sales</label>
                   </div>
                 </div>
               </div>

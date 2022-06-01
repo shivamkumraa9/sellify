@@ -25,7 +25,7 @@
             <div class="flex-1 ms-3">
               <h6 class="mb-0 text-muted">Revenue</h6>
               <p class="fs-5 text-dark fw-bold mb-0">
-                ₹{{ data.analytics.revenue }}
+                ₹{{ data.analytics.revenue.toFixed(2) }}
               </p>
             </div>
           </div>
@@ -75,7 +75,7 @@
             <div class="flex-1 ms-3">
               <h6 class="mb-0 text-muted">Avg Order</h6>
               <p class="fs-5 text-dark fw-bold mb-0">
-                ₹{{ data.analytics.avgOrderValue }}
+                ₹{{ data.analytics.avgOrderValue.toFixed(2) }}
               </p>
             </div>
           </div>
@@ -123,7 +123,7 @@
                 <div class="flex-1">
                   <h6 class="mb-0 text-dark">{{ item.customerName }}</h6>
                   <small class="text-muted">
-                    ₹{{ item.amount }}
+                    ₹{{ item.amount.toFixed(2) }}
                     ({{ new Date(item.createdAt).toLocaleString() }})
                   </small>
                 </div>
@@ -162,7 +162,7 @@
                 </router-link>
               </td>
               <td class="text-center p-3">
-                ₹{{ item.revenue }}
+                ₹{{ item.revenue.toFixed(2) }}
               </td>
               <td class="text-center p-3">
                 {{ item.orders }}

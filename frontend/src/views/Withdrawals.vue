@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-4">
         <div class="card border-0 rounded shadow p-4 mt-4">
-          <h4 class="mb-0">Balance : ₹{{ data.balance }}</h4>
+          <h4 class="mb-0">Balance : ₹{{ data.balance.toFixed(2) }}</h4>
           <div class="mt-4">
             <h6 class="mb-0">Withdrawal generally takes 24-48 hours.</h6>
             <div class="mt-4">

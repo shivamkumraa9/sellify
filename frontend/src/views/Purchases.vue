@@ -37,7 +37,7 @@
               </td>
               <td class="text-center p-3">{{ item.customerName }}</td>
               <td class="text-center p-3">{{ item.customerEmail }}</td>
-              <td class="text-center p-3">₹{{ item.amount }}</td>
+              <td class="text-center p-3">₹{{ item.amount.toFixed(2) }}</td>
               <td class="text-center p-3">{{ new Date(item.createdAt).toLocaleString() }}</td>
               <td class="text-center p-3">
                 <div class="badge rounded px-3 py-1"

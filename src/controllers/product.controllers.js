@@ -119,7 +119,10 @@ module.exports = {
     obj.value = obj.value || '';
 
     const products = await Product.find(
-      { name: { $regex: obj.value } },
+      {
+        name: { $regex: obj.value },
+        hide: false,
+      },
       // eslint-disable-next-line object-curly-newline
       { name: 1, price: 1, cover: 1, url: 1, minPrice: 1, priceStrategy: 1 },
     )
