@@ -3,7 +3,7 @@
     <section class="section bg-light">
       <div class="container mt-5">
         <div class="section-title text-center mb-4 pb-2">
-          <h2 class="mb-3">Choose the best one for you</h2>
+          <h2 class="mb-3">Search any product</h2>
           <form @submit.prevent="search">
             <div class="col-md-6 col-lg-5 mx-auto">
               <div class="input-group mb-3">

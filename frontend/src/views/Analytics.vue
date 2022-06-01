@@ -312,6 +312,7 @@ export default {
       const start = new Date();
       if (this.selectedOption === 'This Month') {
         start.setDate(1);
+        start.setHours(0, 0, 0, 0);
       } else if (this.selectedOption === 'Last 30 Days') {
         start.setDate(start.getDate() - 30);
       } else {

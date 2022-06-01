@@ -37,18 +37,22 @@
                       <li class="h6 text-muted mb-0">
                         <span class="text-primary h5 me-2">
                           <i class="uil uil-check-circle align-middle"></i>
-                        </span>Full
-                        Access
+                        </span>Unlimited Products
                       </li>
                       <li class="h6 text-muted mb-0">
                         <span class="text-primary h5 me-2">
                           <i class="uil uil-check-circle align-middle"></i>
-                        </span>Source Files
+                        </span>Dashboard Access
                       </li>
                       <li class="h6 text-muted mb-0">
                         <span class="text-primary h5 me-2">
                           <i class="uil uil-check-circle align-middle"></i>
-                        </span>Free Appointments
+                        </span>Access to all features
+                      </li>
+                      <li class="h6 text-muted mb-0">
+                        <span class="text-primary h5 me-2">
+                          <i class="uil uil-check-circle align-middle"></i>
+                        </span>Withdrawal Time: 24-48 hrs
                       </li>
                     </ul>
                     <button v-if="data.userDetails.plan === item._id" :disabled="true"

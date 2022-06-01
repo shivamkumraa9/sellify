@@ -23,7 +23,7 @@
               </router-link>
             </li>
             <li v-if="!$store.token" class="list-inline-item ps-1 mb-0">
-              <router-link to="/signup" class="btn rounded-pill btn-primary">
+              <router-link to="/register" class="btn rounded-pill btn-primary">
                 Try For Free
               </router-link>
             </li>
@@ -43,10 +43,13 @@
             <li class="has-submenu parent-menu-item">
               <a href="javascript:void(0)">Features</a><span class="menu-arrow"></span>
               <ul class="submenu">
-                <li><a href="/#feat" class="sub-menu-item">Docs</a></li>
-                <li><a href="/#feat" class="sub-menu-item">Changelog</a></li>
-                <li><a href="/#feat" class="sub-menu-item">Components</a></li>
-                <li><a href="/#feat" class="sub-menu-item">Widget</a></li>
+                <li><a href="/#feat" class="sub-menu-item">Unlimited Products</a></li>
+                <li><a href="/#feat" class="sub-menu-item">Analytics Dashboard</a></li>
+                <li><a href="/#feat" class="sub-menu-item">Multiple Pricing Types</a></li>
+                <li><a href="/#feat" class="sub-menu-item">Start For Free</a></li>
+                <li><a href="/#feat" class="sub-menu-item">Easy Withdrawals</a></li>
+                <li><a href="/#feat" class="sub-menu-item">Seamless Support</a></li>
+
               </ul>
             </li>
             <li :class="$route.path === '/pricing' ? 'active' : ''">

@@ -5,12 +5,16 @@
         <div class="row justify-content-center">
           <div class="col-lg-12 text-center mt-0 mt-md-5 pt-0 pt-md-5">
             <div class="title-heading margin-top-100">
-              <h1 class="heading fw-bold mb-3">We Build A Design <br> For Email Inbox</h1>
+              <h1 class="heading fw-bold mb-3">The Easiest Way To<br> Sell Digital Products</h1>
               <p class="para-desc mx-auto text-muted">
-                Launch your campaign and benefit from our expertise on
-                designing and managing conversion centered bootstrap v5 html page.</p>
-              <div class="mt-4 pt-2"> <a href="#about" class="btn btn-primary">Start Free Trial <i
-                    class="uil uil-angle-right-b"></i></a> </div>
+                Sellify is the simplified platform making it easy
+                 to sell any digital product or accept any other payment online.
+              </p>
+              <div class="mt-4 pt-2">
+                <router-link to="/register" class="btn btn-primary">
+                  Start For Free <i class="uil uil-angle-right-b"></i>
+                </router-link>
+              </div>
             </div>
             <div class="row justify-content-center">
               <div class="col-lg-10">
@@ -52,56 +56,38 @@
           <div class="col-12">
             <div class="section-title text-center mb-4 pb-2">
               <h4 class="title mb-4">Our Features</h4>
-              <p class="text-muted para-desc mb-0 mx-auto">Start working with
-                <span class="text-primary fw-bold">Landrick</span>
-                 that can provide everything you need to
-                generate awareness, drive traffic, connect.</p>
+              <p class="text-muted para-desc mb-0 mx-auto">Selling digital downloadable products
+                can be clunky and difficult, but not anymore with sellify.</p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="d-flex features feature-clean">
-              <div class="icons text-primary text-center mx-auto"> <i
-                  class="uil uil-comment-verify d-block rounded h3 mb-0"></i> </div>
+              <div class="icons text-primary text-center mx-auto">
+                <i class="uil uil-shopping-cart d-block rounded h3 mb-0"></i>
+              </div>
               <div class="flex-1 content ms-4">
                 <h5 class="mb-1">
-                  <a href="javascript:void(0)" class="text-dark title">Instant Chat</a>
+                  <a href="javascript:void(0)" class="text-dark title">Unlimited Products</a>
                 </h5>
                 <p class="text-muted mb-0">
-                  The most well-known dummy text is the, which is said to have
-                   originated in the 16th century.</p>
+                  Create unlimited products within minutes with different pricing strategies.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="d-flex features feature-clean">
               <div class="icons text-primary text-center mx-auto"> <i
-                  class="uil uil-image d-block rounded h3 mb-0"></i> </div>
-              <div class="flex-1 content ms-4">
-                <h5 class="mb-1">
-                  <a href="javascript:void(0)" class="text-dark title">Media Messages</a>
-                </h5>
-                <p class="text-muted mb-0">
-                  The most well-known dummy text is the, which is said to have
-                  originated in the 16th century.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mt-5">
-            <div class="d-flex features feature-clean">
-              <div class="icons text-primary text-center mx-auto"> <i
-                  class="uil uil-video d-block rounded h3 mb-0"></i> </div>
+                  class="uil uil-chart d-block rounded h3 mb-0"></i> </div>
               <div class="flex-1 content ms-4">
                 <h5 class="mb-1">
                   <a href="javascript:void(0)" class="text-dark title">
-                    Video Messages
+                    Analytics Dashboard
                   </a>
                 </h5>
                 <p class="text-muted mb-0">
-                  The most well-known dummy text is the, which is said to have
-                  originated in the 16th century.
+                  A built-in analytics dashboard to track and give some meaningful insights.
                 </p>
               </div>
             </div>
@@ -109,14 +95,48 @@
           <div class="col-lg-4 col-md-6 mt-5">
             <div class="d-flex features feature-clean">
               <div class="icons text-primary text-center mx-auto"> <i
-                  class="uil uil-database-alt d-block rounded h3 mb-0"></i> </div>
+                  class="uil uil-tag d-block rounded h3 mb-0"></i> </div>
               <div class="flex-1 content ms-4">
                 <h5 class="mb-1">
-                  <a href="javascript:void(0)" class="text-dark title">Dedicated Server</a>
+                  <a href="javascript:void(0)" class="text-dark title">Multiple Pricing Types</a>
                 </h5>
                 <p class="text-muted mb-0">
-                  The most well-known dummy text is the, which is said to have
-                  originated in the 16th century.</p>
+                  Set the pricing strategy that suits you the most eg: Fixed, Free, or Variable.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="d-flex features feature-clean">
+              <div class="icons text-primary text-center mx-auto">
+                <i class="uil uil-comment-verify d-block rounded h3 mb-0"></i>
+              </div>
+              <div class="flex-1 content ms-4">
+                <h5 class="mb-1">
+                  <a href="javascript:void(0)" class="text-dark title">Start For Free</a>
+                </h5>
+                <p class="text-muted mb-0">
+                  You can get started for free and don't need to opt for a
+                  paid plan till you feel it.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="d-flex features feature-clean">
+              <div class="icons text-primary text-center mx-auto">
+                <i class="uil uil-dollar-alt d-block rounded h3 mb-0"></i>
+                <!-- <i class="uil uil-apps d-block rounded h3 mb-0"></i> -->
+              </div>
+              <div class="flex-1 content ms-4">
+                <h5 class="mb-1">
+                  <a href="javascript:void(0)" class="text-dark title">
+                    Easy Withdrawals
+                  </a>
+                </h5>
+                <p class="text-muted mb-0">
+                  Easily withdraw the money to your Paypal account with a few
+                  clicks from the dashboard.
+                </p>
               </div>
             </div>
           </div>
@@ -126,28 +146,11 @@
                   class="uil uil-users-alt d-block rounded h3 mb-0"></i> </div>
               <div class="flex-1 content ms-4">
                 <h5 class="mb-1">
-                  <a href="javascript:void(0)" class="text-dark title">Team Collaboration</a>
+                  <a href="javascript:void(0)" class="text-dark title">Seamless Support</a>
                 </h5>
                 <p class="text-muted mb-0">
-                  The most well-known dummy text is the, which is said to have
-                  originated in the 16th century.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mt-5">
-            <div class="d-flex features feature-clean">
-              <div class="icons text-primary text-center mx-auto"> <i
-                  class="uil uil-apps d-block rounded h3 mb-0"></i> </div>
-              <div class="flex-1 content ms-4">
-                <h5 class="mb-1">
-                  <a href="javascript:void(0)" class="text-dark title">
-                    Responsive App
-                  </a>
-                </h5>
-                <p class="text-muted mb-0">
-                  The most well-known dummy text is the, which is said to have
-                  originated in the 16th century.
-                </p>
+                  Got stuck? Please feel free to contact us. Our support team will get
+                  back to you in no time.</p>
               </div>
             </div>
           </div>
@@ -155,7 +158,7 @@
       </div>
     </section>
     <section class="section">
-      <div class="container">
+      <!-- <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
             <img src="@/assets/images/laptop.png" class="img-fluid" alt="">
@@ -189,26 +192,28 @@
           </div>
 
         </div>
-      </div>
+      </div> -->
 
-      <div class="container mt-100 mt-60">
+      <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-7 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
             <div class="section-title me-lg-5">
-              <h4 class="title mb-4">Get Notified About Importent Email</h4>
-              <p class="text-muted">This prevents repetitive patterns from impairing the overall
-                 visual impression and facilitates the comparison of different typefaces.
-                  Furthermore, it is advantageous when the dummy text is relatively realistic.</p>
+              <h4 class="title mb-4">Its never been that easy to sell online</h4>
+              <p class="text-muted">You focus more on creating killar products and leave
+                everything else to us. With sellify, you can sell books, courses,
+                software, design assets, music, or any type of digital product
+                directly to your customers.
+              </p>
               <ul class="list-unstyled text-muted">
                 <li class="mb-1">
                   <span class="text-primary h5 me-2">
                     <i class="uil uil-check-circle align-middle"></i>
-                  </span>Digital Marketing Solutions for Tomorrow
+                  </span>Start Selling within few minutes.
                 </li>
                 <li class="mb-1">
                   <span class="text-primary h5 me-2">
                     <i class="uil uil-check-circle align-middle"></i>
-                  </span>Create your own skin to match your brand
+                  </span>Select the pricing strategy that suits you the most.
                 </li>
               </ul>
             </div>
@@ -225,11 +230,11 @@
         <div class="row justify-content-center">
           <div class="col-12 text-center">
             <div class="section-title">
-              <h4 class="title mb-2">See everything about your employee at one place.</h4>
-              <p class="text-muted para-desc mx-auto mb-0">Start working with that can provide
-                 everything you need to drive traffic, connect.</p>
+              <h4 class="title mb-2">Are you ready to make some money online?</h4>
+              <p class="text-muted para-desc mx-auto mb-0">Click on the button below
+                to start for free.</p>
               <div class="mt-2">
-                <router-link to="/signup" class="btn btn-lg rounded-pill btn-primary mt-3">
+                <router-link to="/register" class="btn btn-lg rounded-pill btn-primary mt-3">
                 Try For Free</router-link>
               </div>
             </div>

@@ -11,8 +11,8 @@
                     <!-- <img src="@/assets/images/logo-light.png" height="24" alt=""> -->
                 </a>
                 <p class="mt-3">
-                  Start working with Landrick that can provide everything you need
-                  to generate awareness, drive traffic, connect.
+                  With sellify, you can sell books, courses, software, design assets, music, or
+                   any type of digital product directly to your customers.
                 </p>
                 <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
                     <li class="list-inline-item">
@@ -41,6 +41,16 @@
                 <h5 class="footer-head">Company</h5>
                 <ul class="list-unstyled footer-list mt-4">
                   <li>
+                    <router-link to="/register" class="text-foot">
+                      <i class="uil uil-angle-right-b me-1"></i> Register
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/login" class="text-foot">
+                      <i class="uil uil-angle-right-b me-1"></i> Login
+                    </router-link>
+                  </li>
+                  <li>
                     <a href="javascript:void(0)" class="text-foot">
                       <i class="uil uil-angle-right-b me-1"></i> About us
                     </a>
@@ -51,14 +61,14 @@
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)" class="text-foot">
+                    <a href="https://shivamkumraa.com" class="text-foot">
                       <i class="uil uil-angle-right-b me-1"></i> Team
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)" class="text-foot">
+                    <router-link to="/pricing" class="text-foot">
                       <i class="uil uil-angle-right-b me-1"></i> Pricing
-                    </a>
+                    </router-link>
                   </li>
                   <li>
                     <a href="javascript:void(0)" class="text-foot">
@@ -68,16 +78,6 @@
                   <li>
                     <a href="javascript:void(0)" class="text-foot">
                       <i class="uil uil-angle-right-b me-1"></i> Careers
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)" class="text-foot">
-                      <i class="uil uil-angle-right-b me-1"></i> Blog
-                    </a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)" class="text-foot">
-                      <i class="uil uil-angle-right-b me-1"></i> Login
                     </a>
                   </li>
                 </ul>
@@ -106,38 +106,36 @@
                       </a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)" class="text-foot">
-                        <i class="uil uil-angle-right-b me-1"></i> Components
-                      </a>
+                      <router-link to="/dashboard" class="text-foot">
+                        <i class="uil uil-angle-right-b me-1"></i> Dashboard
+                      </router-link>
                     </li>
                 </ul>
               </div>
               <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                 <h5 class="footer-head">Newsletter</h5>
                 <p class="mt-4">Sign up and receive the latest tips via email.</p>
-                <form>
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <div class="foot-subscribe mb-3">
-                        <label class="form-label">
-                          Write your email
-                          <span class="text-danger">*</span>
-                        </label>
-                        <div class="form-icon position-relative">
-                          <i data-feather="mail" class="fea icon-sm icons"></i>
-                          <input type="email" name="email" id="emailsubscribe"
-                            class="form-control ps-5 rounded" placeholder="Your email :" required>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="d-grid">
-                        <input type="submit" id="submitsubscribe" name="send"
-                          class="btn btn-soft-primary" value="Subscribe">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="foot-subscribe mb-3">
+                      <label class="form-label">
+                        Write your email
+                        <span class="text-danger">*</span>
+                      </label>
+                      <div class="form-icon position-relative">
+                        <!-- <i data-feather="mail" class="fea icon-sm icons"></i> -->
+                        <input type="email" name="email" id="emailsubscribe"
+                          class="form-control rounded" placeholder="Your email :" required>
                       </div>
                     </div>
                   </div>
-                </form>
+                  <div class="col-lg-12">
+                    <div class="d-grid">
+                      <input type="submit" id="submitsubscribe" name="send"
+                        class="btn btn-soft-primary" value="Subscribe">
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -147,12 +145,10 @@
     <div class="footer-py-30 footer-bar">
       <div class="container text-center">
         <div class="text-sm-center">
-          <p class="mb-0">© Sellify. Build with Love by
-            <a href="https://shivamkumraa.com/" target="_blank" class="text-reset">Shivam</a>
+          <p class="mb-0">© Sellify 2022 all rights reserved
           </p>
         </div>
       </div>
     </div>
-
   </footer>
 </template>

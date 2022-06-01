@@ -4,33 +4,8 @@
       <div class="container mt-5">
         <div class="section-title text-center mb-4 pb-2">
           <h2 class="mb-3">Choose the best one for you</h2>
-          <p class="text-muted mb-0 text-center"> Start working with that can provide everything
-            you need to
+          <p class="text-muted mb-0 text-center"> Cancel anytime in few clicks.
           </p>
-        </div>
-        <div class="mt-4 mt-sm-0 text-center text-md-end">
-          <ul class="nav nav-pills bg-white rounded-lg \
-          justify-content-center d-inline-block shadow py-1 px-2 mb-0"
-            id="pills-tab" role="tablist">
-            <li class="nav-item d-inline-block">
-              <a
-                class="nav-link px-3 rounded-lg active monthly" id="Monthly"
-                data-bs-toggle="pill" href="#Month"
-                role="tab" aria-controls="Month" aria-selected="true"
-              >
-                Monthly
-              </a>
-            </li>
-            <li class="nav-item d-inline-block">
-              <a
-                class="nav-link px-3 rounded-lg yearly" id="Yearly"
-                data-bs-toggle="pill" href="#Year" role="tab"
-                aria-controls="Year" aria-selected="false"
-              >
-                Yearly
-              </a>
-            </li>
-          </ul>
         </div>
         <div class="row">
           <div class="col-12">
@@ -45,7 +20,7 @@
                       <div class="card-body">
                         <h6 class="title fw-bold text-uppercase text-primary mb-4">Free</h6>
                         <div class="d-flex mb-4">
-                          <span class="h6 mb-0 mt-2">$</span>
+                          <span class="h6 mb-0 mt-2">₹</span>
                           <span class="price h1 mb-0">0</span>
                           <span class="h5 align-self-end mb-1"> /mo</span>
                         </div>
@@ -53,21 +28,32 @@
                           <li class="h6 text-muted mb-0">
                             <span class="text-primary h5 me-2">
                               <i class="uil uil-check-circle align-middle"></i>
-                            </span>
-                              Full Access
+                            </span>Commission: 7% + Stripe Fees
                           </li>
                           <li class="h6 text-muted mb-0">
                             <span class="text-primary h5 me-2">
                               <i class="uil uil-check-circle align-middle"></i>
-                            </span>Source Files
+                            </span>Unlimited Products
                           </li>
                           <li class="h6 text-muted mb-0">
                             <span class="text-primary h5 me-2">
                               <i class="uil uil-check-circle align-middle"></i>
-                            </span>Free Appointments
+                            </span>Dashboard Access
+                          </li>
+                          <li class="h6 text-muted mb-0">
+                            <span class="text-primary h5 me-2">
+                              <i class="uil uil-check-circle align-middle"></i>
+                            </span>Access to all features
+                          </li>
+                          <li class="h6 text-muted mb-0">
+                            <span class="text-primary h5 me-2">
+                              <i class="uil uil-check-circle align-middle"></i>
+                            </span>Withdrawal Time: 24-48 hrs
                           </li>
                         </ul>
-                        <a href="javascript:void(0)" class="btn btn-primary mt-4">Buy Now</a>
+                        <router-link to="/dashboard/plans" class="btn btn-primary mt-4">
+                          Buy Now
+                        </router-link>
                       </div>
                     </div>
                   </div>
@@ -79,29 +65,40 @@
                       <div class="card-body">
                         <h6 class="title fw-bold text-uppercase text-primary mb-4">Starter</h6>
                         <div class="d-flex mb-4">
-                          <span class="h6 mb-0 mt-2">$</span>
-                          <span class="price h1 mb-0">39</span>
+                          <span class="h6 mb-0 mt-2">₹</span>
+                          <span class="price h1 mb-0">3500</span>
                           <span class="h5 align-self-end mb-1"> /mo</span>
                         </div>
                         <ul class="list-unstyled mb-0 ps-0">
                           <li class="h6 text-muted mb-0">
                             <span class="text-primary h5 me-2">
                               <i class="uil uil-check-circle align-middle"></i>
-                            </span>Full
-                            Access
+                            </span>Commission: 3% + Stripe Fees
                           </li>
                           <li class="h6 text-muted mb-0">
                             <span class="text-primary h5 me-2">
                               <i class="uil uil-check-circle align-middle"></i>
-                            </span>Source Files
+                            </span>Unlimited Products
                           </li>
                           <li class="h6 text-muted mb-0">
                             <span class="text-primary h5 me-2">
                               <i class="uil uil-check-circle align-middle"></i>
-                            </span>Free Appointments
+                            </span>Dashboard Access
+                          </li>
+                          <li class="h6 text-muted mb-0">
+                            <span class="text-primary h5 me-2">
+                              <i class="uil uil-check-circle align-middle"></i>
+                            </span>Access to all features
+                          </li>
+                          <li class="h6 text-muted mb-0">
+                            <span class="text-primary h5 me-2">
+                              <i class="uil uil-check-circle align-middle"></i>
+                            </span>Withdrawal Time: 24-48 hrs
                           </li>
                         </ul>
-                        <a href="javascript:void(0)" class="btn btn-primary mt-4">Get Started</a>
+                        <router-link to="/dashboard/plans" class="btn btn-primary mt-4">
+                          Buy Now
+                        </router-link>
                       </div>
                     </div>
                   </div>
@@ -110,130 +107,40 @@
                       <div class="card-body">
                         <h6 class="title fw-bold text-uppercase text-primary mb-4">Ultimate</h6>
                         <div class="d-flex mb-4">
-                          <span class="h6 mb-0 mt-2">$</span>
-                          <span class="price h1 mb-0">79</span>
+                          <span class="h6 mb-0 mt-2">₹</span>
+                          <span class="price h1 mb-0">7500</span>
                           <span class="h5 align-self-end mb-1"> /mo</span>
                         </div>
                         <ul class="list-unstyled mb-0 ps-0">
                           <li class="h6 text-muted mb-0">
                             <span class="text-primary h5 me-2">
                               <i class="uil uil-check-circle align-middle"></i>
-                            </span>Full Access
+                            </span>Commission: 0% + Stripe Fees
                           </li>
                           <li class="h6 text-muted mb-0">
                             <span class="text-primary h5 me-2">
                               <i class="uil uil-check-circle align-middle"></i>
-                            </span>Enhanced Security
+                            </span>Unlimited Products
                           </li>
                           <li class="h6 text-muted mb-0">
                             <span class="text-primary h5 me-2">
                               <i class="uil uil-check-circle align-middle"></i>
-                            </span>Source Files
+                            </span>Dashboard Access
+                          </li>
+                          <li class="h6 text-muted mb-0">
+                            <span class="text-primary h5 me-2">
+                              <i class="uil uil-check-circle align-middle"></i>
+                            </span>Access to all features
+                          </li>
+                          <li class="h6 text-muted mb-0">
+                            <span class="text-primary h5 me-2">
+                              <i class="uil uil-check-circle align-middle"></i>
+                            </span>Withdrawal Time: 24-48 hrs
                           </li>
                         </ul>
-                        <a href="javascript:void(0)" class="btn btn-primary mt-4">Started Now</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane fade" id="Year" role="tabpanel" aria-labelledby="Yearly">
-                <div class="row justify-content-center">
-                  <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                    <div class="card pricing-rates business-rate shadow bg-light border-0 rounded">
-                      <div class="card-body">
-                        <h6 class="title fw-bold text-uppercase text-primary mb-4">Free</h6>
-                        <div class="d-flex mb-4">
-                          <span class="h6 mb-0 mt-2">$</span>
-                          <span class="price h1 mb-0">0</span>
-                          <span class="h5 align-self-end mb-1"> /mo</span>
-                        </div>
-                        <ul class="list-unstyled mb-0 ps-0">
-                          <li class="h6 text-muted mb-0">
-                            <span class="text-primary h5 me-2">
-                              <i class="uil uil-check-circle align-middle"></i>
-                            </span>Full Access
-                          </li>
-                          <li class="h6 text-muted mb-0">
-                            <span class="text-primary h5 me-2">
-                              <i class="uil uil-check-circle align-middle"></i>
-                            </span>Source Files
-                          </li>
-                        </ul>
-                        <a href="javascript:void(0)" class="btn btn-primary mt-4">Buy Now</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                    <div class="card pricing-rates business-rate shadow bg-white border-0 rounded">
-                      <div class="ribbon ribbon-right ribbon-warning overflow-hidden">
-                        <span class="text-center d-block shadow small h6">Best</span>
-                      </div>
-                      <div class="card-body">
-                        <h6 class="title fw-bold text-uppercase text-primary mb-4">Starter</h6>
-                        <div class="d-flex mb-4">
-                          <span class="h6 mb-0 mt-2">$</span>
-                          <span class="price h1 mb-0">29</span>
-                          <span class="h5 align-self-end mb-1"> /mo</span>
-                          </div>
-                        <ul class="list-unstyled mb-0 ps-0">
-                          <li class="h6 text-muted mb-0">
-                            <span class="text-primary h5 me-2">
-                              <i class="uil uil-check-circle align-middle"></i>
-                            </span>Full Access
-                          </li>
-                          <li class="h6 text-muted mb-0">
-                            <span class="text-primary h5 me-2">
-                              <i class="uil uil-check-circle align-middle"></i>
-                            </span>Source Files
-                          </li>
-                          <li class="h6 text-muted mb-0">
-                            <span class="text-primary h5 me-2">
-                              <i class="uil uil-check-circle align-middle"></i>
-                            </span>Free Appointments
-                          </li>
-                        </ul>
-                        <a href="javascript:void(0)" class="btn btn-primary mt-4">Get Started</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                    <div class="card pricing-rates business-rate shadow bg-light border-0 rounded">
-                      <div class="card-body">
-                        <h6 class="title fw-bold text-uppercase text-primary mb-4">Ultimate</h6>
-                        <div class="d-flex mb-4">
-                          <span class="h6 mb-0 mt-2">$</span>
-                          <span class="price h1 mb-0">69</span>
-                          <span class="h5 align-self-end mb-1"> /mo</span>
-                        </div>
-                        <ul class="list-unstyled mb-0 ps-0">
-                          <li class="h6 text-muted mb-0">
-                            <span class="text-primary h5 me-2">
-                              <i class="uil uil-check-circle align-middle"></i>
-                            </span>Full Access
-                          </li>
-                          <li class="h6 text-muted mb-0">
-                            <span class="text-primary h5 me-2">
-                              <i class="uil uil-check-circle align-middle"></i>
-                            </span>Enhanced Security
-                          </li>
-                          <li class="h6 text-muted mb-0">
-                            <span class="text-primary h5 me-2">
-                              <i class="uil uil-check-circle align-middle"></i>
-                            </span>Source Files
-                          </li>
-                          <li class="h6 text-muted mb-0">
-                            <span class="text-primary h5 me-2">
-                              <i class="uil uil-check-circle align-middle"></i>
-                            </span>1 Domain Free
-                          </li>
-                          <li class="h6 text-muted mb-0">
-                            <span class="text-primary h5 me-2">
-                              <i class="uil uil-check-circle align-middle"></i>
-                            </span>Free Installment
-                          </li>
-                        </ul>
-                        <a href="javascript:void(0)" class="btn btn-primary mt-4">Started Now</a>
+                        <router-link to="/dashboard/plans" class="btn btn-primary mt-4">
+                          Buy Now
+                        </router-link>
                       </div>
                     </div>
                   </div>
@@ -257,7 +164,7 @@
                     data-bs-toggle="collapse" data-bs-target="#collapsefive"
                     aria-expanded="true" aria-controls="collapsefive"
                   >
-                  How does it work ?
+                  Do I have to opt for the paid plan to start selling?
                   </button>
                 </h2>
                 <div
@@ -266,8 +173,8 @@
                   data-bs-parent="#generalquestion">
                   <div class="accordion-body text-muted bg-white"
                 >
-                    There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration in some form.
+                    No, you can start selling for free. But the commissions are higher in the free
+                     plan and are 0% in the premium plan.
                   </div>
                 </div>
               </div>
@@ -279,7 +186,7 @@
                     data-bs-target="#collapsesix"
                     aria-expanded="false" aria-controls="collapsesix"
                   >
-                  Do I need a designer to use Landrick ?
+                  How will I withdraw the money?
                   </button>
                 </h2>
                 <div
@@ -288,8 +195,9 @@
                   aria-labelledby="headingsix"
                   data-bs-parent="#generalquestion">
                   <div class="accordion-body text-muted bg-white">
-                    There are many variations of passages of Lorem Ipsum available,
-                     but the majority have suffered alteration in some form.
+                    You can easily withdraw the money into your Paypal account from the
+                    withdrawals section of the sidebar. On average, withdrawals take
+                    24-48 hours to process.
                   </div>
                 </div>
               </div>
@@ -301,7 +209,7 @@
                     data-bs-target="#collapseseven" aria-expanded="false"
                     aria-controls="collapseseven"
                   >
-                  What do I need to do to start selling ?
+                  How much commission you take in the paid plan?
                   </button>
                 </h2>
                 <div
@@ -310,8 +218,8 @@
                   data-bs-parent="#generalquestion"
                 >
                   <div class="accordion-body text-muted bg-white">
-                    There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration in some form.
+                    We take a 3% commission per sale in the standard plan
+                    and 0% in the premium plan.
                   </div>
                 </div>
               </div>
@@ -323,7 +231,7 @@
                     data-bs-target="#collapseeight" aria-expanded="false"
                     aria-controls="collapseeight"
                   >
-                  What happens when I receive an order ?
+                  Where can I see my customers data?
                   </button>
                 </h2>
                 <div
@@ -331,8 +239,28 @@
                   aria-labelledby="headingeight"
                   data-bs-parent="#generalquestion">
                   <div class="accordion-body text-muted bg-white">
-                    There are many variations of passages of Lorem Ipsum available,
-                     but the majority have suffered alteration in some form.
+                    You can see the customer's data in the purchase section of the sidebar.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item rounded mt-2">
+                <h2 class="accordion-header" id="headingeight">
+                  <button
+                    class="accordion-button border-0 bg-light collapsed"
+                    type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseeight" aria-expanded="false"
+                    aria-controls="collapseeight"
+                  >
+                  Can I cancel my subscription?
+                  </button>
+                </h2>
+                <div
+                  id="collapseeight" class="accordion-collapse border-0 collapse"
+                  aria-labelledby="headingeight"
+                  data-bs-parent="#generalquestion">
+                  <div class="accordion-body text-muted bg-white">
+                    Yes, you can easily cancel your subscription anytime from the plans section of
+                    the dashboard.
                   </div>
                 </div>
               </div>
