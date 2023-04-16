@@ -7,7 +7,7 @@ const Transaction = require('../models/Transaction');
 require('dotenv').config();
 
 async function main() {
-  await mongoose.connect(process.env.DB);
+  await mongoose.connect(process.env.DB_URI);
   console.log('db connected');
 
   const now = Date.now();

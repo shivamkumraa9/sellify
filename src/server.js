@@ -7,9 +7,9 @@ const path = require('path');
 require('dotenv').config();
 
 const app = express();
-const port = process.env.port || 5000;
+const port = process.env.PORT || 5000;
 
-mongoose.connect(process.env.DB)
+mongoose.connect(process.env.DB_URI)
   .then(() => console.log('db connected'))
   .catch((err) => console.log(err));
 
