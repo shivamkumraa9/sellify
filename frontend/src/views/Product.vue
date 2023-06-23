@@ -3,7 +3,7 @@
     <div class="mx-auto shadow-lg product-container">
       <img
         class="text-center" style="width: 100%"
-        :src="$store.imageBase + data.cover" alt="">
+        :src="data.cover" alt="">
       <div class="py-3 px-3 px-md-4 py-md-4">
         <div class="d-flex justify-content-between">
           <div>

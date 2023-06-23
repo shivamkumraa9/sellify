@@ -18,10 +18,10 @@
                 </div>
               </div>
               <div class="mb-3">
-                <label class="form-label">Upload a Zip or Txt File (upto 5MB)</label>
+                <label class="form-label">Only ZIP files are allowed (upto 5MB)</label>
                 <input
                   style="display: none" type="file"
-                  id="fileInput" name="fileInput" accept=".zip,.txt" @change="upload"
+                  id="fileInput" name="fileInput" accept=".zip" @change="upload"
                 />
                 <div @click="clickFileInput('#fileInput')"
                   class="text-center shadow rounded text-dark upload-btn">

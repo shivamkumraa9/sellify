@@ -11,6 +11,7 @@ module.exports = {
   },
   rules: {
     'vue/multi-word-component-names': 'off',
+    'linebreak-style': 'off',
   },
   parserOptions: {
     ecmaVersion: 2022,

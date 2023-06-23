@@ -1,5 +1,6 @@
 const joi = require('joi');
 const bcrypt = require('bcryptjs');
+const fileUploader = require('@uploadcare/upload-client');
 const User = require('../models/User');
 
 module.exports = {
@@ -52,10 +53,12 @@ module.exports = {
   },
 
   async updateProfilePic(req, res) {
-    const path = `images/${req.file.filename}`;
-    await User.findByIdAndUpdate(req.user._id, {
-      profilePic: path,
+    const file = await fileUploader.uploadFile(req.file.buffer, {
+      publicKey: process.env.UPLOAD_CARE_PUBLIC_KEY,
     });
-    return res.json({ path });
+    await User.findByIdAndUpdate(req.user._id, {
+      profilePic: file.cdnUrl,
+    });
+    return res.json({ path: file.cdnUrl });
   },
 };

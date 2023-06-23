@@ -1,5 +1,6 @@
 const joi = require('joi');
 const jwt = require('jsonwebtoken');
+const fileUploader = require('@uploadcare/upload-client');
 const sanitizeHtml = require('sanitize-html');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const Product = require('../models/Product');
@@ -110,7 +111,11 @@ module.exports = {
   },
 
   async upload(req, res) {
-    return res.json({ file: `${req.file.destination}${req.file.filename}` });
+    const file = await fileUploader.uploadFile(req.file.buffer, {
+      publicKey: process.env.UPLOAD_CARE_PUBLIC_KEY,
+      fileName: req.file.originalname,
+    });
+    return res.json({ file: file.cdnUrl });
   },
 
   async search(req, res) {
@@ -292,7 +297,7 @@ module.exports = {
       const id = jwt.verify(req.query.id, process.env.JWT_DOWNLOAD_SECRET);
       const product = await Product.findById(id._id);
       if (product) {
-        return res.download(product.file);
+        return res.redirect(product.file);
       }
     // eslint-disable-next-line no-empty
     } catch {}

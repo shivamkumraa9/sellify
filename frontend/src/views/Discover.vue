@@ -24,7 +24,7 @@
           <div v-for="item in data" :key="item._id" class="col-xl-3 col-lg-4 col-md-6 mt-4">
             <div class="card blog blog-primary rounded border-0 shadow overflow-hidden">
               <div class="position-relative">
-                <img :src="$store.imageBase + item.cover" class="card-img-top" alt="...">
+                <img :src="item.cover" class="card-img-top" alt="...">
                 <div class="overlay rounded-top"></div>
               </div>
               <div class="card-body content">
